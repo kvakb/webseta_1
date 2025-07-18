@@ -170,7 +170,9 @@
     });
   });*/
 
+  /*
   // DOM elements for view controls.
+
   var viewUpElement = document.querySelector('#viewUp');
   var viewDownElement = document.querySelector('#viewDown');
   var viewLeftElement = document.querySelector('#viewLeft');
@@ -192,6 +194,8 @@
   controls.registerMethod('inElement',    new Marzipano.ElementPressControlMethod(viewInElement,  'zoom', -velocity, friction), true);
   controls.registerMethod('outElement',   new Marzipano.ElementPressControlMethod(viewOutElement, 'zoom',  velocity, friction), true);
 
+
+   */
   function sanitize(s) {
     return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;');
   }
